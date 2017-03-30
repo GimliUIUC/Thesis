@@ -39,15 +39,17 @@ The objective of compound planetary gearbox design is to achieve desired gear ra
 
 Velocity equivalence is used to calculate the gear ratio.
 \begin{eqnarray}
-\omega_{sun} r_{sun} = v_p + \omega_p r_{pin}\\
-v_p = \omega_{p} r_{pout}\\
-\omega_p = \frac{\omega_{sun}r_{sun}}{r_{pout}+r_{pin}}\\
-\omega_{shaft} = \frac{\omega_{p}r_{pout}}{r_{sun}+r_{pin}}\\
-
+\omega_{sun} r_{sun} =& v_p + \omega_p r_{pin}\\
+v_p =& \omega_{p} r_{pout}\\
+\omega_p =& \frac{\omega_{sun}r_{sun}}{r_{pout}+r_{pin}}\\
+\omega_{shaft} =& \frac{\omega_{p}r_{pout}}{r_{sun}+r_{pin}}
 \end{eqnarray}
-where $\omega_{shaft}$ is the angular velocity of the out
- the variable definitions could be found in Table \ref{tab:varDefGearbox}.
+where $\omega_{shaft}$ is the angular velocity of the output shaft and the rest of the variable definitions could be found in Table \ref{tab:varDefGearbox}.
 
+Therefore, the gear ratio of a compound planetary gearbox could be formulated as:
+\begin{equation}
+GR = \frac{\omega_{sun}}{\omega_{shaft}} = \frac{(r_{pout}+r_{pin})(r_{sun}+r_{pin})}{r_{sun}r_{pout}} = \frac{(N_{pout}+N_{pin})(N_{sun}+N_{pin})}{N_{sun}N_{pout}}
+\end{equation}
 
 \begin{table}[bp]
 	\centering
@@ -56,15 +58,29 @@ where $\omega_{shaft}$ is the angular velocity of the out
 		& Sun gear		& Input planet	& Output planet	& Ring gear \\ \hline
 		Pitch diameter	& $r_{sun}$	   	& $r_{pin}$		& $r_{pout}$	& $r_{ring}$\\
 		Angular velocity& $\omega_{sun}$& $\omega_{p}$	& $\omega_{p}$	& N/A		\\
-		Linear velocity	& N/A			& $v_p$			& $v_p$			& N/A		\\ \hline
+		Linear velocity	& N/A			& $v_p$			& $v_p$			& N/A		\\
+		Teeth number	& $N_{sun}$		& $N_{pout}$	& $N_{pout}$	& $N_{ring}$\\ \hline
 	\end{tabular}
 	\label{tab:varDefGearbox}
 \end{table}
 
 The planetary gearbox shown in Figure \ref{fig:gearbox} utilizes two-stage compound planet gears to provide desired gear ratio while satisfying the dimensional constraints imposed by motor selection. 
 
+A large number of teeth combinations were enumerated and the optimal gear teeth choice emerged (GR = 23.36; sun gear: 12; planet gear: 16/53; ring gear: 81). The constraints for choosing teeth numbers are listed as follows:
 
-A large number of teeth combinations were enumerated and the optimal gear teeth choice emerged (GR = 23.36; sun gear: 12; planet gear: 16/53; ring gear: 81). The criteria for choosing teeth number is that he teeth number of sun gear and ring gear could both be divided by the number of planet gears. Ideally, the phase difference between two stages should be the same for all compound planet gears. However, in compound gear manufacturing, the phase differnce could not be well maintained. To solve this problem, the planet gear teeth combination was chosen to be 16/53, which only share the common factor of 1. This choice provides tunable backlash with $2.1^{\circ}$ increment in the gearbox assembly. This is very similar to the working principle of a mechanical caliper, which uses two scales (main scale and vernier scale) with small difference to achieve high precision.
+\begin{enumerate}
+	\item The teeth number of sun gear ($N_{sun}$) and ring gear ($N_{ring}$) could both be divided by the number of planet gears.
+	\item The pitch circles of sun gear and planet gears, as well as that of planet gears and the ring gear should be externally tangent, 
+	
+	i.e. $r_{ring}=r_{sun}+r_{pin}+r_{pout}$ or $N_{ring}=N_{sun}+N_{pin}+N_{pout}$.
+	\item The gear ratio $GR$ should be within the range of 22 - 25.
+	\item The radius of the gearbox should be less than 25 mm, 
+	
+	i.e. $Max[r_{ring},r_{sun}+2r_{pin}]<12.5 mm$
+	\item The teeth number for sun gear $N_{sun}$ should be no less than 6. Other wise the meshing would be problematic because the profile of gear teeth would be distorted too much.
+\end{enumerate}
+
+ Ideally, the phase difference between two stages should be the same for all compound planet gears. However, in compound gear manufacturing, the phase differnce could not be well maintained. To solve this problem, the planet gear teeth combination was chosen to be 16/53, which only share the common factor of 1. This choice provides tunable backlash with $2.1^{\circ}$ increment in the gearbox assembly. This is very similar to the working principle of a mechanical caliper, which uses two scales (main scale and vernier scale) with small difference to achieve high precision.
 
 \section{\textbf{Mechanical Design of The Leg}}
 \label{sec:LegDesign}

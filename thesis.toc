@@ -10,9 +10,9 @@
 \contentsline {chapter}{CHAPTER\ 3\hskip 1em\relax \MakeUppercase {Leg Design}}{3}
 \contentsline {section}{\numberline {3.1}\textbf {Transmission Design}}{3}
 \contentsline {subsection}{\numberline {3.1.1}\textbf {Transmission Design Comparison}}{3}
-\contentsline {subsection}{\numberline {3.1.2}\textbf {Compound Planetary Gearbox}}{4}
-\contentsline {section}{\numberline {3.2}\textbf {Mechanical Design of The Leg}}{5}
-\contentsline {subsection}{\numberline {3.2.1}\textbf {HIP-KNEE Connection Design}}{6}
-\contentsline {subsection}{\numberline {3.2.2}\textbf {Linkage Transmission Design}}{8}
-\contentsline {subsection}{\numberline {3.2.3}\textbf {Electronic System Integration}}{8}
-\contentsline {chapter}{\MakeUppercase {REFERENCES}}{9}
+\contentsline {subsection}{\numberline {3.1.2}\textbf {Compound Planetary Gearbox Design}}{4}
+\contentsline {section}{\numberline {3.2}\textbf {Mechanical Design of The Leg}}{6}
+\contentsline {subsection}{\numberline {3.2.1}\textbf {HIP-KNEE Connection Design}}{8}
+\contentsline {subsection}{\numberline {3.2.2}\textbf {Linkage Transmission Design}}{9}
+\contentsline {subsection}{\numberline {3.2.3}\textbf {Electronic System Integration}}{9}
+\contentsline {chapter}{\MakeUppercase {REFERENCES}}{10}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.22)  28 MAR 2017 08:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.16)  29 MAR 2017 19:36
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -314,70 +314,72 @@ CHAPTER 2.
 
 ]
 CHAPTER 3.
-(LegDesign.tex
-<figures/planetaryGearbox.pdf, id=38, 550.72859pt x 279.69797pt>
+(LegDesign.tex [3
+
+]
+<figures/planetaryGearbox.pdf, id=41, 550.72859pt x 279.69797pt>
 File: figures/planetaryGearbox.pdf Graphic file (type pdf)
 
 <use figures/planetaryGearbox.pdf>
 Package pdftex.def Info: figures/planetaryGearbox.pdf used on input line 24.
 (pdftex.def)             Requested size: 550.72725pt x 279.69727pt.
- [3
-
-] [4 <./figures/planetaryGearbox.pdf, page is rotated 90 degrees>]
-<figures/gearbox.pdf, id=65, 627.72978pt x 225.66006pt>
+ [4 <./figures/planetaryGearbox.pdf, page is rotated 90 degrees>] [5]
+<figures/gearbox.pdf, id=71, 627.72978pt x 225.66006pt>
 File: figures/gearbox.pdf Graphic file (type pdf)
 
 <use figures/gearbox.pdf>
-Package pdftex.def Info: figures/gearbox.pdf used on input line 71.
+Package pdftex.def Info: figures/gearbox.pdf used on input line 92.
 (pdftex.def)             Requested size: 627.72826pt x 225.6595pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/SWrendering.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<figures/SWrendering.pdf, id=66, 689.51756pt x 342.07199pt>
+<figures/SWrendering.pdf, id=72, 689.51756pt x 342.07199pt>
 File: figures/SWrendering.pdf Graphic file (type pdf)
 
 <use figures/SWrendering.pdf>
-Package pdftex.def Info: figures/SWrendering.pdf used on input line 83.
+Package pdftex.def Info: figures/SWrendering.pdf used on input line 104.
 (pdftex.def)             Requested size: 689.51588pt x 342.07115pt.
- [5]
-<figures/KMFbearings.pdf, id=72, 705.63594pt x 291.92563pt>
+
+<figures/KMFbearings.pdf, id=73, 705.63594pt x 291.92563pt>
 File: figures/KMFbearings.pdf Graphic file (type pdf)
 
 <use figures/KMFbearings.pdf>
-Package pdftex.def Info: figures/KMFbearings.pdf used on input line 89.
+Package pdftex.def Info: figures/KMFbearings.pdf used on input line 110.
 (pdftex.def)             Requested size: 705.63422pt x 291.92491pt.
-
-Overfull \hbox (10.47098pt too wide) in paragraph at lines 96--97
+ [6] [7 <./figures/gearbox.pdf, page is rotated 90 degrees> <./figures/SWrender
+ing.pdf>]
+Overfull \hbox (10.47098pt too wide) in paragraph at lines 117--118
 []\OT1/cmr/m/n/12 The ABAD mo-tor's ro-ta-tional axis is placed per-pen-dic-u-l
 ar to the HIP/KNEE
  []
 
-[6 <./figures/gearbox.pdf, page is rotated 90 degrees>] [7 <./figures/SWrenderi
-ng.pdf> <./figures/KMFbearings.pdf, page is rotated 90 degrees>]) [8]
-(thesis.bbl) [9
+[8 <./figures/KMFbearings.pdf, page is rotated 90 degrees>]) [9] (thesis.bbl)
+[10
 
 
 ] (thesis.aux) ) 
 Here is how much of TeX's memory you used:
- 3612 strings out of 493333
- 53672 string characters out of 3139191
- 119550 words of memory out of 3000000
- 7076 multiletter control sequences out of 15000+200000
+ 3613 strings out of 493333
+ 53682 string characters out of 3139143
+ 120553 words of memory out of 3000000
+ 7077 multiletter control sequences out of 15000+200000
  9566 words of font info for 34 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,10n,39p,1010b,282s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmb
 x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
-am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/pub
-lic/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (17 pages, 2153018 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Progr
+am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmsl12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfon
+ts/cm/cmsy8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb>
+Output written on thesis.pdf (18 pages, 2176793 bytes).
 PDF statistics:
- 1118 PDF objects out of 1200 (max. 8388607)
+ 1129 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
