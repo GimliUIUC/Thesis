@@ -1,3 +1,4 @@
+
 \section{\textbf{Transmission Design}}
 \label{sec:transmissionDesign}
 
@@ -66,7 +67,7 @@ GR = \frac{\omega_{sun}}{\omega_{shaft}} = \frac{(r_{pout}+r_{pin})(r_{sun}+r_{p
 
 The planetary gearbox shown in Figure \ref{fig:gearbox} utilizes two-stage compound planet gears to provide desired gear ratio while satisfying the dimensional constraints imposed by motor selection. 
 
-A large number of teeth combinations were enumerated and the optimal gear teeth choice emerged (GR = 23.36; sun gear: 12; planet gear: 16/53; ring gear: 81). The constraints for choosing teeth numbers are listed as follows:
+The constraints for choosing teeth numbers are listed as follows:
 
 \begin{enumerate}
 	\item The teeth number of sun gear ($N_{sun}$) and ring gear ($N_{ring}$) could both be divided by the number of planet gears.
@@ -80,7 +81,13 @@ A large number of teeth combinations were enumerated and the optimal gear teeth 
 	\item The teeth number for sun gear $N_{sun}$ should be no less than 6. Other wise the meshing would be problematic because the profile of gear teeth would be distorted too much.
 \end{enumerate}
 
- Ideally, the phase difference between two stages should be the same for all compound planet gears. However, in compound gear manufacturing, the phase differnce could not be well maintained. To solve this problem, the planet gear teeth combination was chosen to be 16/53, which only share the common factor of 1. This choice provides tunable backlash with $2.1^{\circ}$ increment in the gearbox assembly. This is very similar to the working principle of a mechanical caliper, which uses two scales (main scale and vernier scale) with small difference to achieve high precision.
+On top of the constraints, some practical issues were also considered in choosing gear teeth. Ideally, the phase difference between two stages of the planet gears should be the same. However, in compound gear manufacturing, the phase differnce could not be well maintained. To solve this problem, the planet gear teeth combination was chosen to be 16/53, which only share the common factor of 1. This choice provides tunable backlash with $2.1^{\circ}$ increment in the gearbox assembly. This is very similar to the working principle of a mechanical caliper, which uses two scales (main scale and vernier scale) with small difference to achieve high precision.
+
+A large number of teeth combinations were enumerated taking into account all the constraints. The optimal gear teeth choice emerged as $N_{sun} = 12; N_{pin} = 53; N_{pout} = 16; N_{ring} = 81$ and the gear ratio is 23.3594.
+
+All gears are custom made by \textit{HPC Gears Ltd} with 0.4 pitch and pressure angle of $20^{\circ}$.
+
+
 
 \section{\textbf{Mechanical Design of The Leg}}
 \label{sec:LegDesign}
