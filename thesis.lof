@@ -1,9 +1,12 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces A squirrel leaping forward (up) The robot leg presented in this leaping forward (bottom)\relax }}{4}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Sequential design process for determining design parameters. (a) knee extensor model for motor selection (b) detailed leg model for linkage design and gear ratio choice (c) hardware platform for experiments\relax }}{6}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Maximal achievable height for specific torque and speed limit. The x-axis corresponds to maximal angular velocity of the actuator, the y-axis corresponds to maximal torque of the actuator, and the depth represents the maximal achievable height of a jump\relax }}{9}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Compound Planetary Gearbox Configurations. (left) 2 planet configuration, (right) 3 planet configuration\relax }}{4}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Planetary gearbox design with three compound planet gears (left); curved upper-link design (middle); hip and knee motor module (right); (1) sun gear, (2) compound planet gear, (3) ring gear, (4) stand-off, (5) brass dowel pin, (6) output pin, (7) upper link, (8) KNEE carrier, (9) KMF PBXS020 bearing, (10) the KNEE motor module\relax }}{7}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces CAD Model of the Leg Module Design; (left) A side-view of the leg module with cut-out on thigh link showing the four-bar linkage design; (right) A cut-out view showing the internal structure of a motor module\relax }}{8}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces (left) Connection Design Between HIP and KNEE Motors for Large Hip Range of Motion (ROM); (right) Exploded View of ABAD motor\relax }}{8}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Compound Planetary Gearbox Configurations. (left) 2 planet configuration, (right) 3 planet configuration\relax }}{11}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Planetary gearbox design with three compound planet gears (left); curved upper-link design (middle); hip and knee motor module (right); (1) sun gear, (2) compound planet gear, (3) ring gear, (4) stand-off, (5) brass dowel pin, (6) output pin, (7) upper link, (8) KNEE carrier, (9) KMF PBXS020 bearing, (10) the KNEE motor module\relax }}{14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces CAD Model of the Leg Module Design; (left) A side-view of the leg module with cut-out on thigh link showing the four-bar linkage design; (right) A cut-out view showing the internal structure of a motor module\relax }}{15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces (left) Connection Design Between HIP and KNEE Motors for Large Hip Range of Motion (ROM); (right) Exploded View of ABAD motor\relax }}{15}
 \addvspace {10\p@ }

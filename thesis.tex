@@ -9,6 +9,9 @@
 % Use tocnosub to suppress subsection and lower entries in the TOC.
 % PhD candidates use "proquest" for the proquest abstract.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Packages
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \makeatletter
 \usepackage{graphicx}		% For \includegraphics
 \graphicspath{{figures/}}	% Looks under ../Data/figures/ sub-dir for files referenced by \includegraphics
@@ -21,8 +24,22 @@
 %\usepackage{url}  % Hyphenation of URLs.
 \usepackage{lscape}  % Useful for wide tables or figures.
 \usepackage[justification=raggedright]{caption}	% makes captions ragged right - thanks to Bryce Lobdell
+\usepackage{amsmath}		% For \begin{bmatrix}
 \usepackage{color}			% For \textcolor
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Commands
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\Bezier}{B\'ezier}
+\renewcommand{\(}{\left(}
+\renewcommand{\)}{\right)}
+\newcommand{\dq}{{\dot{q}}}
+\newcommand{\ddq}{{\ddot{q}}}
+\newcommand{\dz}{{\dot{z}}}
+\newcommand{\ddz}{{\ddot{z}}}
+\newcommand{\dJ}{{\dot{J}}}
+\newcommand{\dJx}{{\dot{J_x}}}
 
 % Uncomment the appropriate one of the following four lines:
 \msthesis
@@ -30,6 +47,10 @@
 %\otherdoctorate[abbrev]{Title of Degree}
 %\othermasters[abbrev]{Title of Degree}
 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Title
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \title{Design and Experimental Implementation of a Quasi-Direct-Drive Leg for Optimized Jumping}
 \author{Yanran Ding}
 \department{Mechanical Science and Engineering}
