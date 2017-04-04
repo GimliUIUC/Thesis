@@ -6,7 +6,15 @@
 \contentsline {figure}{\numberline {2.2}{\ignorespaces Maximal achievable height for specific torque and speed limit. The x-axis corresponds to maximal angular velocity of the actuator, the y-axis corresponds to maximal torque of the actuator, and the depth represents the maximal achievable height of a jump\relax }}{9}
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Compound Planetary Gearbox Configurations. (left) 2 planet configuration, (right) 3 planet configuration\relax }}{11}
-\contentsline {figure}{\numberline {3.2}{\ignorespaces Planetary gearbox design with three compound planet gears (left); curved upper-link design (middle); hip and knee motor module (right); (1) sun gear, (2) compound planet gear, (3) ring gear, (4) stand-off, (5) brass dowel pin, (6) output pin, (7) upper link, (8) KNEE carrier, (9) KMF PBXS020 bearing, (10) the KNEE motor module\relax }}{14}
-\contentsline {figure}{\numberline {3.3}{\ignorespaces CAD Model of the Leg Module Design; (left) A side-view of the leg module with cut-out on thigh link showing the four-bar linkage design; (right) A cut-out view showing the internal structure of a motor module\relax }}{15}
-\contentsline {figure}{\numberline {3.4}{\ignorespaces (left) Connection Design Between HIP and KNEE Motors for Large Hip Range of Motion (ROM); (right) Exploded View of ABAD motor\relax }}{15}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Three typical linkage topologies (a)Open-serial chain (b)Parallel five-bar (c)Symmetric five-bar. The design variable is $\delta $ and the workspace variable is the leg's radial extension\relax }}{14}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Force production in radial and lateral directions for open chain design\relax }}{15}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Force production in radial and lateral directions for parallel five-bar design\relax }}{16}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Force production in radial and lateral directions for symmetric five-bar design\relax }}{16}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Proprioceptive Sensitivity in radial direction for an example linkage design of Open-chain, Parallel five-bar and Symmetric five-bar\relax }}{17}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the open-chain design\relax }}{17}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the parallel five-bar design\relax }}{18}
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the symmetric five-bar design\relax }}{18}
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Planetary gearbox design with three compound planet gears (left); curved upper-link design (middle); hip and knee motor module (right); (1) sun gear, (2) compound planet gear, (3) ring gear, (4) stand-off, (5) brass dowel pin, (6) output pin, (7) upper link, (8) KNEE carrier, (9) KMF PBXS020 bearing, (10) the KNEE motor module\relax }}{20}
+\contentsline {figure}{\numberline {3.11}{\ignorespaces CAD Model of the Leg Module Design; (left) A side-view of the leg module with cut-out on thigh link showing the four-bar linkage design; (right) A cut-out view showing the internal structure of a motor module\relax }}{20}
+\contentsline {figure}{\numberline {3.12}{\ignorespaces (left) Connection Design Between HIP and KNEE Motors for Large Hip Range of Motion (ROM); (right) Exploded View of ABAD motor\relax }}{21}
 \addvspace {10\p@ }

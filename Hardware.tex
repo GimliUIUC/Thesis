@@ -1,12 +1,14 @@
-
-\section{\textbf{Transmission Design}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          Transmission
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Transmission Design}
 \label{sec:transmissionDesign}
 
 The actuator design philosophy is to make high power actuators with the capability of interacting with the environment. Namely, the actuator should not be stiff as the heavily geared motors, which are widely used in industrial robots. Instead, it should be back-drivable meaning that the torque applied at the output shaft should be felt at the input shaft. The benefits are threefold, firstly, back-drivability prevents geatboxes from being damaged by external forces; second, it allows for proprioceptive sensing\cite{Seok2012}; thirdly, allows for fast dynamics in legged locomotion.
 
 After the motor selection and gear ratio is determined from previous sections, focus was put on how to design the transmission system so that it can achieve the desired gear ratio while satisfying dimensional constraints.
 
-\subsection{\textbf{Transmission Design Comparison}}
+\subsection{Transmission Design Comparison}
 \label{sec:transmissionComparison}
 
 \textbf{Harmonic drive} is composed of the wave generator, flexspline and circular spline. It could provide high gear ratio typically between 30:1 to 200:1 with zero backlash. Harmonic drive is employed by the quadrupedal robot starlETH\cite{Hutter2013} and the bipedal robot ATRIAS\cite{Hubicki2016}. However, harmonic drive is not back-drivable, which contradicts with our design paradigm.
@@ -17,7 +19,7 @@ After the motor selection and gear ratio is determined from previous sections, f
 
 \textbf{Compound planetary gearboxes} have the benefits of single stage planetary gearboxes while providing more compact design for there are two stages for the planet gear. There are a range of gear teeth selection for the given dimensional limits. It is adopted as the transmission system design considering the dimensional limit and gear ratio requirement of the motor design.
 
-\subsection{\textbf{Compound Planetary Gearbox Design}}
+\subsection{Compound Planetary Gearbox Design}
 \label{sec:compoundGearBox}
 
 \begin{figure}
@@ -87,9 +89,125 @@ A large number of teeth combinations were enumerated taking into account all the
 
 All gears are custom made by \textit{HPC Gears Ltd} with 0.4 pitch and pressure angle of $20^{\circ}$.
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          Leg Topology Comparison
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Leg Topology Comparison}
+\label{sec:LegComparison}
+The full leg module will have three degrees of freedom (DOF) in order to achieve agile 3D maneuver. Three leg topologies, namely, open-serial chain, parallel five-bar and symmetric five-bar are analyzed in terms of workspace, force production and proprioceptive sensing. For simplicity, the abduction/adduction (ABAD) DOF is neglected and only motion in the 2-D hip-knee plane is analyzed. The analysis is based on the linkage analysis of Minitaur\cite{Kenneally2016}.
+
+\begin{figure}
+	\centering
+	\resizebox{0.8\linewidth}{!}{\includegraphics{linkages.pdf}}
+	\caption{Three typical linkage topologies (a)Open-serial chain (b)Parallel five-bar (c)Symmetric five-bar. The design variable is $\delta$ and the workspace variable is the leg's radial extension}
+	\label{fig:linkages}
+\end{figure}
+
+\subsection{Workspace}
+\label{sec:workspace}
+ 	For the three candidate leg topologies shown in Figure \ref{fig:linkages}, the workspace is an annulus, which could be characterized by maximum radius $r_{max}$ and minimum radius $r_{min}$ of the annulus. The design space is defined as:
+ 	\begin{equation}
+ 		\delta=\frac{r_{min}}{r_{max}}
+ 	\end{equation}
+ 	where $r_{max} = l_1 + l_2$ and $r_{min} = l_1 - l_2$, and $l_1,~l_2$ are the lengths of the first and second links shown in Figure \ref{fig:linkages}. Notice that here $\delta \in (-1,1)$, which means $l_1$ chould be either longer or shorter than $l_2$, which serves as an extension to the analysis presented in \cite{Kenneally2016}.
+
+%-------------------------------------------
+% ----------Force Production----------
+\subsection{Force Production}
+\label{sec:forceProduction}
+
+	Manipulability ellipsoids are used to characterize a robot arm's ability to move in certain configuration\cite{Lynch2016}. In the following sections, manipulability ellipsoids of force production, velocity production and proprioceptive sensitivity are utilized to present a manipulator's mechanical performance.
+	
+	Force production ellipsoid characterizes how unit joint torque from motors will reflect as end-effector forces. Solution to equation \ref{eq:force_production} forms the Force production ellipsoid. The major and minor axes of the force production ellipsoid represent the end-effector's strongest and weakest ability to produce force the respective directions.
+
+	\begin{equation}\label{eq:force_production}
+	E_{force} := \{F | F^T J J^T F = ||\tau|| , ||\tau||=1\}
+	\end{equation}
+
+	Radial/Lateral Force Production is defined as the end-effector force in radial/lateral directions given unit joint torque input. Figure \ref{fig:force_production} shows how force production ability changes over $extension$ and $\delta$.
+	
+	
+	\begin{figure*}
+		\centering
+		\resizebox{0.7\linewidth}{!}{\includegraphics{force_openChain.pdf}}
+		\caption{Force production in radial and lateral directions for open chain design}
+		\label{fig:force_openChain}
+	\end{figure*}
+
+	\begin{figure*}
+		\centering
+		\resizebox{0.7\linewidth}{!}{\includegraphics{force_fiveBar.pdf}}
+		\caption{Force production in radial and lateral directions for parallel five-bar design}
+		\label{fig:force_fiveBar}
+	\end{figure*}
+
+	\begin{figure*}
+		\centering
+		\resizebox{0.7\linewidth}{!}{\includegraphics{force_symm.pdf}}
+		\caption{Force production in radial and lateral directions for symmetric five-bar design}
+		\label{fig:force_symm}
+	\end{figure*}
+
+%-------------------------------------------
+% ----------Velocity Production----------
+\subsection{Velocity Production}
+\label{sec:velcotyProduction}
 
 
-\section{\textbf{Mechanical Design of The Leg}}
+
+
+%-------------------------------------------
+% ----------Proprioceptive Sensing----------
+\subsection{Proprioceptive Sensing}
+\label{sec:propSense}
+
+	Proprioceptive sensitivity ellipsoid represents how unit force applied at the end-effector is visible to the motors. Solution to equation	 \ref{eq:sensitivity} forms the proprioceptive sensitivity ellipsoid.
+
+	\begin{equation}\label{eq:sensitivity}
+		E_{sensitivity} := \{\tau | \tau^T J^{-1}J^{-T}\tau = ||F||, ||F||=1\}
+	\end{equation}
+	
+	\begin{figure*}
+		\centering
+		\resizebox{\linewidth}{!}{\includegraphics{egLink_sensi_Ellip.pdf}}
+		\caption{Proprioceptive Sensitivity in radial direction for an example linkage design of Open-chain, Parallel five-bar and Symmetric five-bar}
+		\label{fig:egLink_sensi_Ellip}
+	\end{figure*}
+	
+	\begin{figure*}
+		\centering
+		\resizebox{0.7\linewidth}{!}{\includegraphics{sensitivity_openChain.pdf}}
+		\caption{Proprioceptive Sensitivity in radial and lateral directions for the open-chain design}
+		\label{fig:pro_sensitivity_openChain}
+	\end{figure*}
+	
+	\begin{figure*}
+		\centering
+		\resizebox{0.7\linewidth}{!}{\includegraphics{sensitivity_fiveBar.pdf}}
+		\caption{Proprioceptive Sensitivity in radial and lateral directions for the parallel five-bar design}
+		\label{fig:pro_sensitivity_fiveBar}
+	\end{figure*}
+	
+	\begin{figure*}
+		\centering
+		\resizebox{0.7\linewidth}{!}{\includegraphics{sensitivity_symm.pdf}}
+		\caption{Proprioceptive Sensitivity in radial and lateral directions for the symmetric five-bar design}
+		\label{fig:pro_sensitivity_symm}
+	\end{figure*}
+	
+	An example linkage design for the thee leg topologies is shown in Figure \ref{fig:egLink_sensi_Ellip} where design parameter $\delta$ is fixed as 0.1 and workspace parameter $extension$ is varied. The figure shows that in this specific example, the area enclosed by proprioceptive sensitivity ellipsoid is almost the same with symmetric five-bar slightly better.
+
+	It is worth remarking that similar to force and velocity production, proprioceptive sensitivity should not only be considered in the radial direction, but also in the lateral direction. Radial/Lateral Proprioceptive Sensitivity is defined as the joint torque magnitude when radial/lateral unit force is applied at the end-effector. Figure \ref{fig:pro_sensitivity_openChain}, \ref{fig:pro_sensitivity_fiveBar}, \ref{fig:pro_sensitivity_symm} show how proprioceptive sensitivity changes over design parameters $extension$ and workspace variable $\delta$.
+	
+	Figure \ref{fig:pro_sensitivity_openChain}, \ref{fig:pro_sensitivity_fiveBar}, \ref{fig:pro_sensitivity_symm} show that while symmetric five-bar has excellent radial proprioceptive sensitivity, its lateral sensitivity is relatively poorer. In contrast, Open-chain design has better lateral proprioceptive sensitivity. Higher lateral sensitivity renders open-chain design advantageous in controlling horizontal forces, which is useful in applications such as jumping forward to precise location, control horizontal speed in running and so on.
+	
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%          Leg Mechanical Design
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\section{Mechanical Design of The Leg}
 \label{sec:LegDesign}
 
 With actuator from $\color{red}section$ and linkage design from $\color{red}section$, this section presents a detailed mechanical design layout of the leg. The leg module is composed of three motor modules(HIP/KNEE/ABAD), each has a motor coil and a planetary gearbox with moderate gear ratio to achieve the Quasi-Direct-Drive\cite{20162016} strategy. To accommodate size limitation imposed by actuator choice, the two-stage compound planetary gearbox is used as the transmission. The leg is design to optimize for large workspace, with the novel HIP-KNEE connection design, the knee joint could rotate $360^{\circ}$, the curved upper link and hollow thigh link design also enables large knee joint workspace.
@@ -103,7 +221,7 @@ With actuator from $\color{red}section$ and linkage design from $\color{red}sect
 
 
 
-\subsection{\textbf{HIP-KNEE Connection Design}}
+\subsection{HIP-KNEE Connection Design}
 \label{sec:Design4ROM}
 
 \begin{figure}

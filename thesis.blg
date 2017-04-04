@@ -1,27 +1,27 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: IEEEtranS.bst
 Database file #1: thesisrefs.bib
-Repeated entry---line 535 of file thesisrefs.bib
+Repeated entry---line 551 of file thesisrefs.bib
  : @article{Doha2011
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 573 of file thesisrefs.bib
+Repeated entry---line 589 of file thesisrefs.bib
  : @article{Kenneally2016
  :                       ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 619 of file thesisrefs.bib
+Repeated entry---line 635 of file thesisrefs.bib
  : @article{Seok2012
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 632 of file thesisrefs.bib
+Repeated entry---line 648 of file thesisrefs.bib
  : @article{Full1999
  :                  ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 647 of file thesisrefs.bib
+Repeated entry---line 663 of file thesisrefs.bib
  : @article{Hubicki2016
  :                     ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 663 of file thesisrefs.bib
+Repeated entry---line 679 of file thesisrefs.bib
  : @article{20162016
  :                  ,
 I'm skipping whatever remains of this entry
@@ -31,6 +31,7 @@ I'm skipping whatever remains of this entry
 ** Sorting version - not for normal IEEE work.
 Warning--empty journal in 20162016
 Warning--empty year in alexander247mcn
+Warning--empty journal in Lynch2016
 
 Done.
 (There were 6 error messages)
