@@ -33,85 +33,129 @@
 \@writefile{toc}{\contentsline {chapter}{CHAPTER\ 2\hskip 1em\relax \MakeUppercase  {System Modeling}}{5}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {2.1}\textbf  {System Modeling}}{5}}
+\@writefile{toc}{\contentsline {section}{\numberline {2.1}System Modeling}{5}}
 \newlabel{sec:systemModel}{{2.1}{5}}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.1}Knee Extensor Model}{5}}
 \newlabel{sec:kneeExtensorModel}{{2.1.1}{5}}
 \@writefile{lof}{\contentsline {figure}{\numberline {2.1}{\ignorespaces Sequential design process for determining design parameters. (a) knee extensor model for motor selection (b) detailed leg model for linkage design and gear ratio choice (c) hardware platform for experiments\relax }}{6}}
 \newlabel{fig:systemOverview}{{2.1}{6}}
 \citation{dicsibuyuk2007generalization}
-\citation{Doha2011}
 \@writefile{toc}{\contentsline {subsection}{\numberline {2.1.2}GRF Parameterized as B\'ezier\ Polynomial}{7}}
 \newlabel{sec:BezierPoly}{{2.1.2}{7}}
-\newlabel{eq:bezier}{{2.1}{7}}
-\newlabel{eq:bernstein_diff}{{2.2}{7}}
-\newlabel{eq:bernstein_integration}{{2.3}{8}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Nonlinear Optimization for Ground Reaction Force}{8}}
-\newlabel{sec:nonlOptGRF}{{2.1.3}{8}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Maximal achievable height for specific torque and speed limit. The x-axis corresponds to maximal angular velocity of the actuator, the y-axis corresponds to maximal torque of the actuator, and the depth represents the maximal achievable height of a jump\relax }}{9}}
-\newlabel{fig:hmax_pcolor}{{2.2}{9}}
+\citation{Doha2011}
+\newlabel{eq:bezier}{{2.2}{8}}
+\newlabel{eq:bernstein_diff}{{2.3}{8}}
+\newlabel{eq:bernstein_integration}{{2.4}{8}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.3}Nonlinear Optimization for Ground Reaction Force}{9}}
+\newlabel{sec:nonlOptGRF}{{2.1.3}{9}}
+\newlabel{eq:path_constraints}{{2.7}{9}}
+\newlabel{eq:opt_var_knee}{{2.8}{9}}
+\newlabel{eq:kin_position}{{2.9}{9}}
+\newlabel{eq:kin_velocity}{{2.10}{9}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1.4}Admissble Operating Region}{10}}
+\newlabel{sec:AOR}{{2.1.4}{10}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.2}{\ignorespaces Maximal achievable height for specific torque and speed limit. The x-axis corresponds to maximal angular velocity of the actuator, the y-axis corresponds to maximal torque of the actuator, and the depth represents the maximal achievable height of a jump\relax }}{11}}
+\newlabel{fig:hmax_pcolor}{{2.2}{11}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2.3}{\ignorespaces The Admissible Operating Region (AOR) formed by the torque and angular speed trajectories from the one hundred knee extensor model simulations. A typical motor's speed-torque curve scaled by gear ratio of 23:1 is plotted in green curve. Hip motor acts as a passive joint throughout the jumping up phase.\relax }}{12}}
+\newlabel{fig:AOR}{{2.3}{12}}
+\@writefile{toc}{\contentsline {subsubsection}{Scaling Effect of Gear Ratio}{13}}
+\newlabel{sec:GR_scale_effect}{{2.1.4}{13}}
+\@writefile{toc}{\contentsline {subsubsection}{Zero Torque at the Hip Joint}{13}}
+\@writefile{toc}{\contentsline {chapter}{CHAPTER\ 3\hskip 1em\relax \MakeUppercase  {Sensitivity Analysis}}{14}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {3.1}Poincar\'e Map}{14}}
+\newlabel{sec:Poincare}{{3.1}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.2}Periodic Orbits}{14}}
+\newlabel{sec:periodic}{{3.2}{14}}
+\newlabel{eq:periodicity}{{3.1}{14}}
+\@writefile{toc}{\contentsline {section}{\numberline {3.3}Monodromy Matrix}{14}}
+\newlabel{sec:monodromy}{{3.3}{14}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}Monodromy Matrix for LTI system}{15}}
 \citation{Seok2012}
 \citation{Hutter2013}
 \citation{Hubicki2016}
-\@writefile{toc}{\contentsline {chapter}{CHAPTER\ 3\hskip 1em\relax \MakeUppercase  {Hardware Integration}}{10}}
+\@writefile{toc}{\contentsline {chapter}{CHAPTER\ 4\hskip 1em\relax \MakeUppercase  {Design Principles for Dynamic Legged Robots}}{16}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\@writefile{toc}{\contentsline {section}{\numberline {3.1}Transmission Design}{10}}
-\newlabel{sec:transmissionDesign}{{3.1}{10}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.1}Transmission Design Comparison}{10}}
-\newlabel{sec:transmissionComparison}{{3.1.1}{10}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.1}{\ignorespaces Schematics of Compound Planetary Gearbox Configurations. (left) 2 planet configuration, (right) 3 planet configuration\relax }}{11}}
-\newlabel{fig:planetaryGearbox}{{3.1}{11}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.1.2}Compound Planetary Gearbox Design}{11}}
-\newlabel{sec:compoundGearBox}{{3.1.2}{11}}
-\@writefile{lot}{\contentsline {table}{\numberline {3.1}{\ignorespaces Variable Definition for Gear Ratio Calculation\relax }}{12}}
-\newlabel{tab:varDefGearbox}{{3.1}{12}}
+\@writefile{toc}{\contentsline {section}{\numberline {4.1}Transmission Design}{16}}
+\newlabel{sec:transmissionDesign}{{4.1}{16}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.1}Transmission Design Comparison}{16}}
+\newlabel{sec:transmissionComparison}{{4.1.1}{16}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.1}{\ignorespaces Schematics of Compound Planetary Gearbox Configurations. (left) 2 planet configuration, (right) 3 planet configuration\relax }}{17}}
+\newlabel{fig:planetaryGearbox}{{4.1}{17}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1.2}Compound Planetary Gearbox Design}{17}}
+\newlabel{sec:compoundGearBox}{{4.1.2}{17}}
+\@writefile{lot}{\contentsline {table}{\numberline {4.1}{\ignorespaces Variable Definition for Gear Ratio Calculation\relax }}{18}}
+\newlabel{tab:varDefGearbox}{{4.1}{18}}
 \citation{Kenneally2016}
-\@writefile{toc}{\contentsline {section}{\numberline {3.2}Leg Topology Comparison}{13}}
-\newlabel{sec:LegComparison}{{3.2}{13}}
+\citation{Hae-WonPark1PatrickM.Wensing22015}
+\@writefile{toc}{\contentsline {section}{\numberline {4.2}Leg Topology Comparison}{19}}
+\newlabel{sec:LegComparison}{{4.2}{19}}
 \citation{Kenneally2016}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.2}{\ignorespaces Three typical linkage topologies (a)Open-serial chain (b)Parallel five-bar (c)Symmetric five-bar. The design variable is $\delta $ and the workspace variable is the leg's radial extension\relax }}{20}}
+\newlabel{fig:linkages}{{4.2}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.1}Workspace}{20}}
+\newlabel{sec:workspace}{{4.2.1}{20}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.2}Sweep Volume}{20}}
+\newlabel{sec:sweepVolume}{{4.2.2}{20}}
 \citation{Lynch2016}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.2}{\ignorespaces Three typical linkage topologies (a)Open-serial chain (b)Parallel five-bar (c)Symmetric five-bar. The design variable is $\delta $ and the workspace variable is the leg's radial extension\relax }}{14}}
-\newlabel{fig:linkages}{{3.2}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.1}Workspace}{14}}
-\newlabel{sec:workspace}{{3.2.1}{14}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.2}Force Production}{14}}
-\newlabel{sec:forceProduction}{{3.2.2}{14}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.3}{\ignorespaces Force production in radial and lateral directions for open chain design\relax }}{15}}
-\newlabel{fig:force_openChain}{{3.3}{15}}
-\newlabel{eq:force_production}{{3.7}{15}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.3}Velocity Production}{15}}
-\newlabel{sec:velcotyProduction}{{3.2.3}{15}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.2.4}Proprioceptive Sensing}{15}}
-\newlabel{sec:propSense}{{3.2.4}{15}}
-\newlabel{eq:sensitivity}{{3.8}{15}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.4}{\ignorespaces Force production in radial and lateral directions for parallel five-bar design\relax }}{16}}
-\newlabel{fig:force_fiveBar}{{3.4}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.5}{\ignorespaces Force production in radial and lateral directions for symmetric five-bar design\relax }}{16}}
-\newlabel{fig:force_symm}{{3.5}{16}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.6}{\ignorespaces Proprioceptive Sensitivity in radial direction for an example linkage design of Open-chain, Parallel five-bar and Symmetric five-bar\relax }}{17}}
-\newlabel{fig:egLink_sensi_Ellip}{{3.6}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.7}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the open-chain design\relax }}{17}}
-\newlabel{fig:pro_sensitivity_openChain}{{3.7}{17}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.8}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the parallel five-bar design\relax }}{18}}
-\newlabel{fig:pro_sensitivity_fiveBar}{{3.8}{18}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.9}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the symmetric five-bar design\relax }}{18}}
-\newlabel{fig:pro_sensitivity_symm}{{3.9}{18}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.3}Force Production}{21}}
+\newlabel{sec:forceProduction}{{4.2.3}{21}}
+\newlabel{eq:force_production}{{4.7}{21}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.4}Velocity Production}{21}}
+\newlabel{sec:velcotyProduction}{{4.2.4}{21}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.3}{\ignorespaces Force production in radial direction for an example linkage design of Open-chain, Parallel five-bar and Symmetric five-bar\relax }}{22}}
+\newlabel{fig:egLink_force_ellip}{{4.3}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.4}{\ignorespaces Force production in radial and lateral directions for open chain design\relax }}{22}}
+\newlabel{fig:force_openChain}{{4.4}{22}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.5}{\ignorespaces Force production in radial and lateral directions for parallel five-bar design\relax }}{23}}
+\newlabel{fig:force_fiveBar}{{4.5}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.6}{\ignorespaces Force production in radial and lateral directions for symmetric five-bar design\relax }}{23}}
+\newlabel{fig:force_symm}{{4.6}{23}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.7}{\ignorespaces Velocity production in radial direction for an example linkage design of Open-chain, Parallel five-bar and Symmetric five-bar\relax }}{24}}
+\newlabel{fig:egLink_vel_ellipp}{{4.7}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.8}{\ignorespaces Velocity production in radial and lateral directions for open chain design\relax }}{24}}
+\newlabel{fig:vel_openChain}{{4.8}{24}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.9}{\ignorespaces Velocity production in radial and lateral directions for parallel five-bar design\relax }}{25}}
+\newlabel{fig:vel_fiveBar}{{4.9}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.10}{\ignorespaces Velocity production in radial and lateral directions for symmetric five-bar design\relax }}{25}}
+\newlabel{fig:vel_symm}{{4.10}{25}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.11}{\ignorespaces Proprioceptive Sensitivity in radial direction for an example linkage design of Open-chain, Parallel five-bar and Symmetric five-bar\relax }}{26}}
+\newlabel{fig:egLink_sensi_Ellip}{{4.11}{26}}
+\newlabel{eq:vel_production}{{4.8}{26}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.5}Proprioceptive Sensing}{26}}
+\newlabel{sec:propSense}{{4.2.5}{26}}
+\newlabel{eq:sensitivity}{{4.9}{26}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.12}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the open-chain design\relax }}{27}}
+\newlabel{fig:pro_sensitivity_openChain}{{4.12}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.13}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the parallel five-bar design\relax }}{27}}
+\newlabel{fig:pro_sensitivity_fiveBar}{{4.13}{27}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4.14}{\ignorespaces Proprioceptive Sensitivity in radial and lateral directions for the symmetric five-bar design\relax }}{28}}
+\newlabel{fig:pro_sensitivity_symm}{{4.14}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.6}Power Delivery}{28}}
+\newlabel{sec:powerDelivery}{{4.2.6}{28}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2.7}Linkage Design}{29}}
+\newlabel{sec:LinkageDesign}{{4.2.7}{29}}
+\newlabel{eq:obj_func}{{4.10}{29}}
 \citation{20162016}
-\@writefile{toc}{\contentsline {section}{\numberline {3.3}Mechanical Design of The Leg}{19}}
-\newlabel{sec:LegDesign}{{3.3}{19}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.1}HIP-KNEE Connection Design}{19}}
-\newlabel{sec:Design4ROM}{{3.3.1}{19}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.10}{\ignorespaces Planetary gearbox design with three compound planet gears (left); curved upper-link design (middle); hip and knee motor module (right); (1) sun gear, (2) compound planet gear, (3) ring gear, (4) stand-off, (5) brass dowel pin, (6) output pin, (7) upper link, (8) KNEE carrier, (9) KMF PBXS020 bearing, (10) the KNEE motor module\relax }}{20}}
-\newlabel{fig:gearbox}{{3.10}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.11}{\ignorespaces CAD Model of the Leg Module Design; (left) A side-view of the leg module with cut-out on thigh link showing the four-bar linkage design; (right) A cut-out view showing the internal structure of a motor module\relax }}{20}}
-\newlabel{fig:LegDesign}{{3.11}{20}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3.12}{\ignorespaces (left) Connection Design Between HIP and KNEE Motors for Large Hip Range of Motion (ROM); (right) Exploded View of ABAD motor\relax }}{21}}
-\newlabel{fig:KMFbearings}{{3.12}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.2}\textbf  {Linkage Transmission Design}}{21}}
-\newlabel{sec:legDesign}{{3.3.2}{21}}
-\@writefile{toc}{\contentsline {subsection}{\numberline {3.3.3}\textbf  {Electronic System Integration}}{22}}
-\newlabel{sec:Electronics}{{3.3.3}{22}}
+\@writefile{toc}{\contentsline {chapter}{CHAPTER\ 5\hskip 1em\relax \MakeUppercase  {Hardware Integration}}{30}}
+\@writefile{lof}{\addvspace {10\p@ }}
+\@writefile{lot}{\addvspace {10\p@ }}
+\@writefile{toc}{\contentsline {section}{\numberline {5.1}Mechanical Design of The Leg}{30}}
+\newlabel{sec:LegDesign}{{5.1}{30}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.1}HIP-KNEE Connection Design}{30}}
+\newlabel{sec:Design4ROM}{{5.1.1}{30}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.1}{\ignorespaces Planetary gearbox design with three compound planet gears (left); curved upper-link design (middle); hip and knee motor module (right); (1) sun gear, (2) compound planet gear, (3) ring gear, (4) stand-off, (5) brass dowel pin, (6) output pin, (7) upper link, (8) KNEE carrier, (9) KMF PBXS020 bearing, (10) the KNEE motor module\relax }}{31}}
+\newlabel{fig:gearbox}{{5.1}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.2}{\ignorespaces CAD Model of the Leg Module Design; (left) A side-view of the leg module with cut-out on thigh link showing the four-bar linkage design; (right) A cut-out view showing the internal structure of a motor module\relax }}{31}}
+\newlabel{fig:LegDesign}{{5.2}{31}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5.3}{\ignorespaces (left) Connection Design Between HIP and KNEE Motors for Large Hip Range of Motion (ROM); (right) Exploded View of ABAD motor\relax }}{32}}
+\newlabel{fig:KMFbearings}{{5.3}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.2}\textbf  {Linkage Transmission Design}}{32}}
+\newlabel{sec:legDesign}{{5.1.2}{32}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1.3}\textbf  {Electronic System Integration}}{33}}
+\newlabel{sec:Electronics}{{5.1.3}{33}}
 \bibstyle{IEEEtranS}
 \bibdata{thesisrefs}
 \bibcite{20162016}{1}
@@ -122,18 +166,19 @@
 \bibcite{dicsibuyuk2007generalization}{6}
 \bibcite{Doha2011}{7}
 \bibcite{Full1999}{8}
-\bibcite{Hubicki2016}{9}
-\bibcite{Hutter2013}{10}
-\bibcite{kalouche2016design}{11}
-\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {REFERENCES}}{23}}
+\bibcite{Hae-WonPark1PatrickM.Wensing22015}{9}
+\bibcite{Hubicki2016}{10}
+\@writefile{toc}{\contentsline {chapter}{\MakeUppercase  {REFERENCES}}{34}}
 \@writefile{lof}{\addvspace {10\p@ }}
 \@writefile{lot}{\addvspace {10\p@ }}
-\bibcite{Kenneally2016}{12}
-\bibcite{Lynch2016}{13}
-\bibcite{Park2015}{14}
-\bibcite{robinson1999series}{15}
-\bibcite{Sakagami2002}{16}
-\bibcite{schmidt1984scaling}{17}
-\bibcite{scholz2006scaling}{18}
-\bibcite{Seok2012}{19}
-\bibcite{Walter2007}{20}
+\bibcite{Hutter2013}{11}
+\bibcite{kalouche2016design}{12}
+\bibcite{Kenneally2016}{13}
+\bibcite{Lynch2016}{14}
+\bibcite{Park2015}{15}
+\bibcite{robinson1999series}{16}
+\bibcite{Sakagami2002}{17}
+\bibcite{schmidt1984scaling}{18}
+\bibcite{scholz2006scaling}{19}
+\bibcite{Seok2012}{20}
+\bibcite{Walter2007}{21}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.3.16)  3 APR 2017 22:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.31)  11 JUN 2017 11:27
 entering extended mode
 **./thesis.tex
 (thesis.tex
@@ -175,21 +175,27 @@ Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package color Info: Driver file: pdftex.def on input line 147.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks20
+\verbatim@line=\toks21
+\verbatim@in@stream=\read1
 ) (thesis.aux)
 \openout1 = `thesis.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
-LaTeX Font Info:    ... okay on input line 70.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 72.
+LaTeX Font Info:    ... okay on input line 72.
 \chapternumberheight=\dimen126
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
@@ -199,12 +205,12 @@ LaTeX Font Info:    ... okay on input line 70.
 \scratchbox=\box29
 \nofMPsegments=\count108
 \nofMParguments=\count109
-\everyMPshowfont=\toks20
+\everyMPshowfont=\toks22
 \MPscratchCnt=\count110
 \MPscratchDim=\dimen128
 \MPnumerator=\count111
 \makeMPintoPDFobject=\count112
-\everyMPtoPDFconversion=\toks21
+\everyMPtoPDFconversion=\toks23
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
 Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -254,19 +260,19 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 \thesis@dim=\dimen129
 
-Underfull \vbox (badness 10000) detected at line 81
+Underfull \vbox (badness 10000) detected at line 83
  []
 
 
-Overfull \vbox (72.26999pt too high) detected at line 81
+Overfull \vbox (72.26999pt too high) detected at line 83
  []
 
 
-Underfull \vbox (badness 10000) detected at line 81
+Underfull \vbox (badness 10000) detected at line 83
  []
 
 
-Underfull \vbox (badness 10000) detected at line 81
+Underfull \vbox (badness 10000) detected at line 83
  []
 
 [1
@@ -290,20 +296,20 @@ Underfull \vbox (badness 10000) detected at line 81
  [6
 
 ] (thesis.lof
-Overfull \hbox (24.08324pt too wide) in paragraph at lines 9--9
+Overfull \hbox (24.08324pt too wide) in paragraph at lines 11--11
  [][] []\OT1/cmr/m/n/12 Three typ-i-cal link-age topolo-gies (a)Open-serial cha
 in (b)Parallel 
  []
 
+[7
 
-Overfull \hbox (2.5418pt too wide) in paragraph at lines 17--17
+]
+Overfull \hbox (2.5418pt too wide) in paragraph at lines 25--25
  [][] []\OT1/cmr/m/n/12 Planetary gear-box de-sign with three com-pound planet 
 gears 
  []
 
-[7
-
-])
+)
 \tf@lof=\write5
 \openout5 = `thesis.lof'.
 
@@ -330,7 +336,7 @@ LaTeX Warning: Reference `sec:experiment' on page 3 undefined on input line 24.
 
 pdfTeX warning: pdflatex.exe (file ./figures/both_jump.pdf): PDF inclusion: fou
 nd PDF version <1.7>, but at most version <1.5> allowed
-<figures/both_jump.pdf, id=47, 430.18315pt x 404.96997pt>
+<figures/both_jump.pdf, id=46, 430.18315pt x 404.96997pt>
 File: figures/both_jump.pdf Graphic file (type pdf)
 
 <use figures/both_jump.pdf>
@@ -351,158 +357,218 @@ Package pdftex.def Info: figures/system_overview.pdf used on input line 10.
  [5
 
 ] [6 <./figures/system_overview.pdf>]
-Overfull \hbox (10.07127pt too wide) in paragraph at lines 27--28
+Overfull \hbox (10.07127pt too wide) in paragraph at lines 31--32
 []\OT1/cmr/m/n/12 The co-ef-fi-cients of Bezier poly-no-mial are as-sumed to b
 e $[\OML/cmm/m/it/12 Mg; []; []; []; []; \OT1/cmr/m/n/12 0]$.
  []
 
-[7]
+[7] [8] [9]
 Package epstopdf Info: Source file: <figures/hmax_pcolor.eps>
-(epstopdf)                    date: 2017-04-02 20:35:21
+(epstopdf)                    date: 2017-04-02 22:35:21
 (epstopdf)                    size: 120177 bytes
 (epstopdf)             Output file: <figures/hmax_pcolor-eps-converted-to.pdf>
-(epstopdf)                    date: 2017-04-02 20:35:30
+(epstopdf)                    date: 2017-04-02 22:35:30
 (epstopdf)                    size: 9353 bytes
 (epstopdf)             Command: <epstopdf --outfile=figures/hmax_pcolor-eps-con
 verted-to.pdf figures/hmax_pcolor.eps>
-(epstopdf)             \includegraphics on input line 85.
+(epstopdf)             \includegraphics on input line 182.
 Package epstopdf Info: Output file is already uptodate.
 
-<figures/hmax_pcolor-eps-converted-to.pdf, id=157, 421.575pt x 316.18124pt>
+<figures/hmax_pcolor-eps-converted-to.pdf, id=163, 421.575pt x 316.18124pt>
 File: figures/hmax_pcolor-eps-converted-to.pdf Graphic file (type pdf)
 
 <use figures/hmax_pcolor-eps-converted-to.pdf>
 Package pdftex.def Info: figures/hmax_pcolor-eps-converted-to.pdf used on input
- line 85.
+ line 182.
 (pdftex.def)             Requested size: 421.57396pt x 316.18047pt.
-) [8] [9 <./figures/hmax_pcolor-eps-converted-to.pdf>]
+
+
+pdfTeX warning: pdflatex.exe (file ./figures/AOR.pdf): PDF inclusion: found PDF
+ version <1.7>, but at most version <1.5> allowed
+<figures/AOR.pdf, id=164, 501.46747pt x 386.84625pt>
+File: figures/AOR.pdf Graphic file (type pdf)
+ <use figures/AOR.pdf>
+Package pdftex.def Info: figures/AOR.pdf used on input line 189.
+(pdftex.def)             Requested size: 501.46623pt x 386.84529pt.
+
+[10] [11 <./figures/hmax_pcolor-eps-converted-to.pdf>] [12 <./figures/AOR.pdf>]
+) [13]
 CHAPTER 3.
-(Hardware.tex [10
+(Sensitivity.tex [14
+
+]) [15]
+CHAPTER 4.
+(Design.tex [16
 
 ]
-<figures/planetaryGearbox.pdf, id=182, 550.72859pt x 279.69797pt>
+<figures/planetaryGearbox.pdf, id=243, 550.72859pt x 279.69797pt>
 File: figures/planetaryGearbox.pdf Graphic file (type pdf)
 
 <use figures/planetaryGearbox.pdf>
-Package pdftex.def Info: figures/planetaryGearbox.pdf used on input line 27.
+Package pdftex.def Info: figures/planetaryGearbox.pdf used on input line 29.
 (pdftex.def)             Requested size: 550.72725pt x 279.69727pt.
- [11 <./figures/planetaryGearbox.pdf, page is rotated 90 degrees>] [12]
+ [17 <./figures/planetaryGearbox.pdf, page is rotated 90 degrees>] [18] [19]
 
 pdfTeX warning: pdflatex.exe (file ./figures/linkages.pdf): PDF inclusion: foun
 d PDF version <1.7>, but at most version <1.5> allowed
-<figures/linkages.pdf, id=207, 476.39381pt x 229.24144pt>
+<figures/linkages.pdf, id=271, 476.39381pt x 229.24144pt>
 File: figures/linkages.pdf Graphic file (type pdf)
 
 <use figures/linkages.pdf>
-Package pdftex.def Info: figures/linkages.pdf used on input line 101.
+Package pdftex.def Info: figures/linkages.pdf used on input line 103.
 (pdftex.def)             Requested size: 476.39264pt x 229.24086pt.
- [13] [14 <./figures/linkages.pdf>]
+ [20 <./figures/linkages.pdf>]
+<figures/egLink_force_ellip.pdf, id=297, 638.18423pt x 330.9103pt>
+File: figures/egLink_force_ellip.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig:force_production' on page 15 undefined on input l
-ine 127.
+<use figures/egLink_force_ellip.pdf>
+Package pdftex.def Info: figures/egLink_force_ellip.pdf used on input line 142.
 
-<figures/force_openChain.pdf, id=236, 382.90985pt x 347.45609pt>
+(pdftex.def)             Requested size: 638.18266pt x 330.90947pt.
+
+<figures/force_openChain.pdf, id=298, 382.90985pt x 347.45609pt>
 File: figures/force_openChain.pdf Graphic file (type pdf)
 
 <use figures/force_openChain.pdf>
-Package pdftex.def Info: figures/force_openChain.pdf used on input line 132.
+Package pdftex.def Info: figures/force_openChain.pdf used on input line 149.
 (pdftex.def)             Requested size: 382.90892pt x 347.45523pt.
 
-<figures/force_fiveBar.pdf, id=237, 385.27379pt x 351.3948pt>
+<figures/force_fiveBar.pdf, id=299, 385.27379pt x 351.3948pt>
 File: figures/force_fiveBar.pdf Graphic file (type pdf)
 
 <use figures/force_fiveBar.pdf>
-Package pdftex.def Info: figures/force_fiveBar.pdf used on input line 139.
+Package pdftex.def Info: figures/force_fiveBar.pdf used on input line 156.
 (pdftex.def)             Requested size: 385.27283pt x 351.39394pt.
 
-<figures/force_symm.pdf, id=238, 392.36485pt x 365.57678pt>
+<figures/force_symm.pdf, id=300, 392.36485pt x 365.57678pt>
 File: figures/force_symm.pdf Graphic file (type pdf)
 
 <use figures/force_symm.pdf>
-Package pdftex.def Info: figures/force_symm.pdf used on input line 146.
+Package pdftex.def Info: figures/force_symm.pdf used on input line 163.
 (pdftex.def)             Requested size: 392.36389pt x 365.57588pt.
 
-<figures/egLink_sensi_Ellip.pdf, id=239, 670.48595pt x 317.51622pt>
+<figures/egLink_vel_ellip.pdf, id=301, 596.42624pt x 317.51622pt>
+File: figures/egLink_vel_ellip.pdf Graphic file (type pdf)
+
+<use figures/egLink_vel_ellip.pdf>
+Package pdftex.def Info: figures/egLink_vel_ellip.pdf used on input line 175.
+(pdftex.def)             Requested size: 596.42477pt x 317.51544pt.
+
+<figures/vel_openChain.pdf, id=302, 364.78885pt x 371.87933pt>
+File: figures/vel_openChain.pdf Graphic file (type pdf)
+
+<use figures/vel_openChain.pdf>
+Package pdftex.def Info: figures/vel_openChain.pdf used on input line 182.
+(pdftex.def)             Requested size: 364.78795pt x 371.87842pt.
+
+<figures/vel_fiveBar.pdf, id=303, 368.72858pt x 375.81906pt>
+File: figures/vel_fiveBar.pdf Graphic file (type pdf)
+
+<use figures/vel_fiveBar.pdf>
+Package pdftex.def Info: figures/vel_fiveBar.pdf used on input line 189.
+(pdftex.def)             Requested size: 368.72766pt x 375.81815pt.
+
+<figures/vel_symm.pdf, id=304, 360.84914pt x 364.0009pt>
+File: figures/vel_symm.pdf Graphic file (type pdf)
+
+<use figures/vel_symm.pdf>
+Package pdftex.def Info: figures/vel_symm.pdf used on input line 196.
+(pdftex.def)             Requested size: 360.84824pt x 364.0pt.
+ [21] [22 <./figures/egLink_force_ellip.pdf, page is rotated 90 degrees> <./fig
+ures/force_openChain.pdf, page is rotated 90 degrees>] [23 <./figures/force_fiv
+eBar.pdf, page is rotated 90 degrees> <./figures/force_symm.pdf, page is rotate
+d 90 degrees>] [24 <./figures/egLink_vel_ellip.pdf, page is rotated 90 degrees>
+ <./figures/vel_openChain.pdf, page is rotated 90 degrees>] [25 <./figures/vel_
+fiveBar.pdf, page is rotated 90 degrees> <./figures/vel_symm.pdf, page is rotat
+ed 90 degrees>]
+<figures/egLink_sensi_Ellip.pdf, id=482, 670.48595pt x 317.51622pt>
 File: figures/egLink_sensi_Ellip.pdf Graphic file (type pdf)
 
 <use figures/egLink_sensi_Ellip.pdf>
-Package pdftex.def Info: figures/egLink_sensi_Ellip.pdf used on input line 172.
+Package pdftex.def Info: figures/egLink_sensi_Ellip.pdf used on input line 223.
 
 (pdftex.def)             Requested size: 670.4843pt x 317.51544pt.
 
-<figures/sensitivity_openChain.pdf, id=240, 439.63757pt x 389.2131pt>
+<figures/sensitivity_openChain.pdf, id=483, 439.63757pt x 389.2131pt>
 File: figures/sensitivity_openChain.pdf Graphic file (type pdf)
 
 <use figures/sensitivity_openChain.pdf>
-Package pdftex.def Info: figures/sensitivity_openChain.pdf used on input line 1
-79.
+Package pdftex.def Info: figures/sensitivity_openChain.pdf used on input line 2
+30.
 (pdftex.def)             Requested size: 439.63649pt x 389.21214pt.
 
-<figures/sensitivity_fiveBar.pdf, id=241, 442.78957pt x 381.33467pt>
+<figures/sensitivity_fiveBar.pdf, id=484, 442.78957pt x 381.33467pt>
 File: figures/sensitivity_fiveBar.pdf Graphic file (type pdf)
 
 <use figures/sensitivity_fiveBar.pdf>
-Package pdftex.def Info: figures/sensitivity_fiveBar.pdf used on input line 186
+Package pdftex.def Info: figures/sensitivity_fiveBar.pdf used on input line 237
 .
 (pdftex.def)             Requested size: 442.78848pt x 381.33374pt.
 
-<figures/sensitivity_symm.pdf, id=242, 419.15314pt x 364.0009pt>
+<figures/sensitivity_symm.pdf, id=485, 419.15314pt x 364.0009pt>
 File: figures/sensitivity_symm.pdf Graphic file (type pdf)
 
 <use figures/sensitivity_symm.pdf>
-Package pdftex.def Info: figures/sensitivity_symm.pdf used on input line 193.
+Package pdftex.def Info: figures/sensitivity_symm.pdf used on input line 244.
 (pdftex.def)             Requested size: 419.1521pt x 364.0pt.
- [15 <./figures/force_openChain.pdf, page is rotated 90 degrees>] [16 <./figure
-s/force_fiveBar.pdf, page is rotated 90 degrees> <./figures/force_symm.pdf, pag
-e is rotated 90 degrees>] [17 <./figures/egLink_sensi_Ellip.pdf, page is rotate
-d 90 degrees> <./figures/sensitivity_openChain.pdf, page is rotated 90 degrees>
-] [18 <./figures/sensitivity_fiveBar.pdf, page is rotated 90 degrees> <./figure
-s/sensitivity_symm.pdf, page is rotated 90 degrees>] <figures/gearbox.pdf, id=3
-89, 627.72978pt x 225.66006pt>
+ [26 <./figures/egLink_sensi_Ellip.pdf, page is rotated 90 degrees>] [27 <./fig
+ures/sensitivity_openChain.pdf, page is rotated 90 degrees> <./figures/sensitiv
+ity_fiveBar.pdf, page is rotated 90 degrees>] [28 <./figures/sensitivity_symm.p
+df, page is rotated 90 degrees>]
+Overfull \hbox (33.98784pt too wide) in paragraph at lines 277--278
+\OML/cmm/m/it/12 extension$ \OT1/cmr/m/n/12 to get rid of the ef-fect of mag-ni
+-tude of unit. $\OML/cmm/m/it/12 w[]; w[]; w[]; w[]; w[]; w[]; w[]$
+ []
+
+) [29]
+CHAPTER 5.
+(Hardware.tex <figures/gearbox.pdf, id=580, 627.72978pt x 225.66006pt>
 File: figures/gearbox.pdf Graphic file (type pdf)
 
 <use figures/gearbox.pdf>
-Package pdftex.def Info: figures/gearbox.pdf used on input line 217.
+Package pdftex.def Info: figures/gearbox.pdf used on input line 13.
 (pdftex.def)             Requested size: 627.72826pt x 225.6595pt.
 
 
 pdfTeX warning: pdflatex.exe (file ./figures/SWrendering.pdf): PDF inclusion: f
 ound PDF version <1.7>, but at most version <1.5> allowed
-<figures/SWrendering.pdf, id=390, 689.51756pt x 342.07199pt>
+<figures/SWrendering.pdf, id=581, 689.51756pt x 342.07199pt>
 File: figures/SWrendering.pdf Graphic file (type pdf)
 
 <use figures/SWrendering.pdf>
-Package pdftex.def Info: figures/SWrendering.pdf used on input line 229.
+Package pdftex.def Info: figures/SWrendering.pdf used on input line 25.
 (pdftex.def)             Requested size: 689.51588pt x 342.07115pt.
 
-<figures/KMFbearings.pdf, id=391, 705.63594pt x 291.92563pt>
+<figures/KMFbearings.pdf, id=582, 705.63594pt x 291.92563pt>
 File: figures/KMFbearings.pdf Graphic file (type pdf)
 
 <use figures/KMFbearings.pdf>
-Package pdftex.def Info: figures/KMFbearings.pdf used on input line 235.
+Package pdftex.def Info: figures/KMFbearings.pdf used on input line 31.
 (pdftex.def)             Requested size: 705.63422pt x 291.92491pt.
- [19] [20 <./figures/gearbox.pdf, page is rotated 90 degrees> <./figures/SWrend
-ering.pdf>]
-Overfull \hbox (10.47098pt too wide) in paragraph at lines 242--243
+ [30
+
+] [31 <./figures/gearbox.pdf, page is rotated 90 degrees> <./figures/SWrenderin
+g.pdf>]
+Overfull \hbox (10.47098pt too wide) in paragraph at lines 38--39
 []\OT1/cmr/m/n/12 The ABAD mo-tor's ro-ta-tional axis is placed per-pen-dic-u-l
 ar to the HIP/KNEE
  []
 
-[21 <./figures/KMFbearings.pdf, page is rotated 90 degrees>]) [22] (thesis.bbl
-[23
+[32 <./figures/KMFbearings.pdf, page is rotated 90 degrees>]) [33] (thesis.bbl
+[34
 
 
-]) [24] (thesis.aux)
+]) [35] (thesis.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 3728 strings out of 493333
- 56226 string characters out of 3139143
- 122003 words of memory out of 3000000
- 7180 multiletter control sequences out of 15000+200000
- 9566 words of font info for 34 fonts, out of 3000000 for 9000
+ 3811 strings out of 493333
+ 57886 string characters out of 3139194
+ 122880 words of memory out of 3000000
+ 7249 multiletter control sequences out of 15000+200000
+ 9259 words of font info for 33 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,13n,39p,1573b,287s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
@@ -517,9 +583,9 @@ m/cmr6.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on thesis.pdf (33 pages, 4349057 bytes).
+Output written on thesis.pdf (44 pages, 5299806 bytes).
 PDF statistics:
- 1459 PDF objects out of 1728 (max. 8388607)
+ 1652 PDF objects out of 1728 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

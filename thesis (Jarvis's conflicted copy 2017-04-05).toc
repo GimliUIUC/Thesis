@@ -1,0 +1,30 @@
+\contentsline {chapter}{\MakeUppercase {List of Tables}}{vi}
+\contentsline {chapter}{\MakeUppercase {List of Figures}}{vii}
+\contentsline {chapter}{\MakeUppercase {LIST OF ABBREVIATIONS}}{ix}
+\contentsline {chapter}{CHAPTER\ 1\hskip 1em\relax \MakeUppercase {Introduction}}{1}
+\contentsline {section}{\numberline {1.1}Motivation}{2}
+\contentsline {section}{\numberline {1.2}Contribution}{4}
+\contentsline {section}{\numberline {1.3}Thesis Outline}{4}
+\contentsline {chapter}{CHAPTER\ 2\hskip 1em\relax \MakeUppercase {System Modeling}}{5}
+\contentsline {section}{\numberline {2.1}System Modeling}{5}
+\contentsline {subsection}{\numberline {2.1.1}Knee Extensor Model}{5}
+\contentsline {subsection}{\numberline {2.1.2}GRF Parameterized as B\'ezier\ Polynomial}{7}
+\contentsline {subsection}{\numberline {2.1.3}Nonlinear Optimization for Ground Reaction Force}{8}
+\contentsline {chapter}{CHAPTER\ 3\hskip 1em\relax \MakeUppercase {Design Principles for Dynamic Legged Robots}}{10}
+\contentsline {section}{\numberline {3.1}Transmission Design}{10}
+\contentsline {subsection}{\numberline {3.1.1}Transmission Design Comparison}{10}
+\contentsline {subsection}{\numberline {3.1.2}Compound Planetary Gearbox Design}{11}
+\contentsline {section}{\numberline {3.2}Leg Topology Comparison}{13}
+\contentsline {subsection}{\numberline {3.2.1}Workspace}{14}
+\contentsline {subsection}{\numberline {3.2.2}Sweep Volume}{14}
+\contentsline {subsection}{\numberline {3.2.3}Force Production}{15}
+\contentsline {subsection}{\numberline {3.2.4}Velocity Production}{15}
+\contentsline {subsection}{\numberline {3.2.5}Proprioceptive Sensing}{20}
+\contentsline {subsection}{\numberline {3.2.6}Power Delivery}{22}
+\contentsline {subsection}{\numberline {3.2.7}Linkage Design}{23}
+\contentsline {chapter}{CHAPTER\ 4\hskip 1em\relax \MakeUppercase {Hardware Integration}}{24}
+\contentsline {section}{\numberline {4.1}Mechanical Design of The Leg}{24}
+\contentsline {subsection}{\numberline {4.1.1}HIP-KNEE Connection Design}{24}
+\contentsline {subsection}{\numberline {4.1.2}\textbf {Linkage Transmission Design}}{26}
+\contentsline {subsection}{\numberline {4.1.3}\textbf {Electronic System Integration}}{27}
+\contentsline {chapter}{\MakeUppercase {REFERENCES}}{28}
